@@ -1,0 +1,17 @@
+# Read the documentation: https://github.com/FriendsOfSymfony/FOSElasticaBundle/blob/master/doc/setup.md
+#fos_elastica:
+#    clients:
+#        default: { url: '%env(ELASTICSEARCH_URL)%' }
+#    indexes:
+#        app: null
+#        geo_position:
+#            persistence:
+#                driver: orm
+#                model: App\Entity\GeoPosition
+#                provider: ~
+#                finder: ~
+#            properties:
+#                id: ~
+#                latitude: ~
+#                longitude: ~
+#                description: ~

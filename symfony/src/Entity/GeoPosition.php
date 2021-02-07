@@ -7,8 +7,8 @@ use App\Repository\GeoPositionRepository;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * @ORM\Entity(repositoryClass=GeoPositionRepository::class)
  * @ApiResource()
+ * @ORM\Entity(repositoryClass=GeoPositionRepository::class)
  */
 class GeoPosition
 {
@@ -57,6 +57,7 @@ class GeoPosition
     public function setLongitude(float $longitude): void
     {
         $this->longitude = $longitude;
+
     }
 
     public function getDescription(): ?string

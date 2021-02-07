@@ -28,7 +28,7 @@
             "ref": "a2759dd6123694c8d901d0ec80006e044c2e6457"
         },
         "files": [
-            "./config/routes/annotations.yaml"
+            "config/routes/annotations.yaml"
         ]
     },
     "doctrine/cache": {
@@ -52,10 +52,10 @@
             "ref": "368794356c1fb634e58b38ad2addb36933f2e73e"
         },
         "files": [
-            "./config/packages/doctrine.yaml",
-            "./config/packages/prod/doctrine.yaml",
-            "./src/Entity/.gitignore",
-            "./src/Repository/.gitignore"
+            "config/packages/doctrine.yaml",
+            "config/packages/prod/doctrine.yaml",
+            "src/Entity/.gitignore",
+            "src/Repository/.gitignore"
         ]
     },
     "doctrine/doctrine-migrations-bundle": {
@@ -67,8 +67,8 @@
             "ref": "baaa439e3e3179e69e3da84b671f0a3e4a2f56ad"
         },
         "files": [
-            "./config/packages/doctrine_migrations.yaml",
-            "./migrations/.gitignore"
+            "config/packages/doctrine_migrations.yaml",
+            "migrations/.gitignore"
         ]
     },
     "doctrine/event-manager": {
@@ -95,14 +95,35 @@
     "doctrine/sql-formatter": {
         "version": "1.1.1"
     },
+    "elasticsearch/elasticsearch": {
+        "version": "v6.7.2"
+    },
     "fig/link-util": {
         "version": "1.1.2"
     },
     "friendsofphp/proxy-manager-lts": {
         "version": "v1.0.3"
     },
+    "friendsofsymfony/elastica-bundle": {
+        "version": "5.0",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "master",
+            "version": "5.0",
+            "ref": "46c9cd2c1e07f0fcfd97e96f12b03b2e0845c4cd"
+        },
+        "files": [
+            "config/packages/fos_elastica.yaml"
+        ]
+    },
+    "guzzlehttp/ringphp": {
+        "version": "1.1.1"
+    },
+    "guzzlehttp/streams": {
+        "version": "3.0.0"
+    },
     "laminas/laminas-code": {
-        "version": "4.0.0"
+        "version": "3.4.1"
     },
     "laminas/laminas-eventmanager": {
         "version": "3.3.0"
@@ -125,6 +146,9 @@
     "nikic/php-parser": {
         "version": "v4.10.4"
     },
+    "pagerfanta/pagerfanta": {
+        "version": "v2.6.0"
+    },
     "phpdocumentor/reflection-common": {
         "version": "2.2.0"
     },
@@ -144,10 +168,16 @@
         "version": "1.0.0"
     },
     "psr/link": {
-        "version": "1.1.0"
+        "version": "1.0.0"
     },
     "psr/log": {
         "version": "1.1.3"
+    },
+    "react/promise": {
+        "version": "v2.8.0"
+    },
+    "ruflin/elastica": {
+        "version": "6.1.1"
     },
     "symfony/asset": {
         "version": "v5.2.3"
@@ -170,7 +200,7 @@
             "ref": "c6d02bdfba9da13c22157520e32a602dbee8a75c"
         },
         "files": [
-            "./bin/console"
+            "bin/console"
         ]
     },
     "symfony/dependency-injection": {
@@ -212,7 +242,7 @@
             "ref": "c0eeb50665f0f77226616b6038a9b06c03752d8e"
         },
         "files": [
-            "./.env"
+            ".env"
         ]
     },
     "symfony/framework-bundle": {
@@ -224,15 +254,15 @@
             "ref": "6ec87563dcc85cd0c48856dcfbfc29610506d250"
         },
         "files": [
-            "./config/packages/cache.yaml",
-            "./config/packages/framework.yaml",
-            "./config/packages/test/framework.yaml",
-            "./config/preload.php",
-            "./config/routes/dev/framework.yaml",
-            "./config/services.yaml",
-            "./public/index.php",
-            "./src/Controller/.gitignore",
-            "./src/Kernel.php"
+            "config/packages/cache.yaml",
+            "config/packages/framework.yaml",
+            "config/packages/test/framework.yaml",
+            "config/preload.php",
+            "config/routes/dev/framework.yaml",
+            "config/services.yaml",
+            "public/index.php",
+            "src/Controller/.gitignore",
+            "src/Kernel.php"
         ]
     },
     "symfony/http-client-contracts": {
@@ -289,9 +319,9 @@
             "ref": "b4f3e7c95e38b606eef467e8a42a8408fc460c43"
         },
         "files": [
-            "./config/packages/prod/routing.yaml",
-            "./config/packages/routing.yaml",
-            "./config/routes.yaml"
+            "config/packages/prod/routing.yaml",
+            "config/packages/routing.yaml",
+            "config/routes.yaml"
         ]
     },
     "symfony/security-bundle": {
