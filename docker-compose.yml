@@ -23,8 +23,10 @@ services:
             - ./logs/symfony:/var/www/symfony/var/log:cached
         depends_on: 
             - db
+            - elasticsearch
         networks:
             - db
+            - elk_stack
             - php
     nginx:
         container_name: nginx
